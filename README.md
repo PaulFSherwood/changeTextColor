@@ -3,14 +3,14 @@
 simple library-ish to change the text and or background in the terminal.  Tested in windows and linux.
 
 
-Termcolor
+changeTextColor
 =========
 
 .. image:: colors.jpg
    :alt: colors in action
    :align: left
 
-.. -*- inclusion-marker-for-sphinx-docs -*-
+
 
 changeTextColor_ is a cpp and .h for C++ library to print colored messages to the
 terminal. It should be OS independent, written using ANSI escape code.
