@@ -43,54 +43,48 @@ int main()
 
     return 0;
 }
+```
 
 
+## Color Options
 
+### Colors
 
-Options
-.......................
+- `BLACK`
+- `RED`
+- `GREEN`
+- `YELLOW`
+- `BLUE`
+- `MAGENTA`
+- `CYAN`
+- `WHITE`
+- `LIGHT_GRAY`
 
-Colors
-`````````
+### Bold Colors
 
-#. ``BLACK``
-#. ``RED``
-#. ``GREEN``
-#. ``YELLOW``
-#. ``BLUE``
-#. ``MAGENTA``
-#. ``CYAN``
-#. ``WHITE``
-#. ``LIGHT_GRAY``
+- `BOLD_BLACK`
+- `BOLD_RED`
+- `BOLD_GREEN`
+- `BOLD_YELLOW`
+- `BOLD_BLUE`
+- `BOLD_MAGENTA`
+- `BOLD_CYAN`
+- `BOLD_WHITE`
+- `BOLD_LIGHT_GRAY`
 
-Bold Colors
-`````````
+### Background Colors
 
-#. ``BOLD_BLACK``
-#. ``BOLD_RED;
-#. ``BOLD_GREEN``
-#. ``BOLD_YELLOW``
-#. ``BOLD_BLUE``
-#. ``BOLD_MAGENTA``
-#. ``BOLD_CYAN``
-#. ``BOLD_WHITE``
-#. ``BOLD_LIGHT_GRAY``
+- `BG_BLACK`
+- `BG_RED`
+- `BG_GREEN`
+- `BG_YELLOW`
+- `BG_BLUE`
+- `BG_MAGENTA`
+- `BG_CYAN`
+- `BG_LIGHT_GRAY`
 
-Background Colors
-`````````
+### Extra
 
-#. ``BG_BLACK``
-#. ``BG_RED``
-#. ``BG_GREEN``
-#. ``BG_YELLOW``
-#. ``BG_BLUE``
-#. ``BG_MAGENTA``
-#. ``BG_CYAN``
-#. ``BG_LIGHT_GRAY``
-
-Extra
-`````````
-
-#. ``UNDERLINE``
-#. ``BLINK``
-#. ``RESET``
+- `UNDERLINE`
+- `BLINK`
+- `RESET`
