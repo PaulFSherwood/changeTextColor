@@ -6,7 +6,7 @@ simple library-ish to change the text and or background in the terminal.  Tested
 changeTextColor
 =========
 
-.. image:: colors.jpg
+.. image:: [colors.jpg](https://github.com/PaulFSherwood/changeTextColor/blob/main/colors.jpg)
    :alt: colors in action
    :align: left
 
