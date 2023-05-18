@@ -6,9 +6,10 @@ simple library-ish to change the text and or background in the terminal.  Tested
 changeTextColor
 =========
 
-.. image:: colors.jpg
-   :alt: colors in action
-   :align: left
+# changeTextColor
+
+<img src="colors.jpg" alt="colors in action" style="float: left;">
+
 
 
 
