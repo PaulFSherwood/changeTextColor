@@ -1,14 +1,15 @@
 # changeTextColor
-=========
+
 simple library-ish to change the text and or background in the terminal.  Tested in windows and linux.
 
 # changeTextColor
-=================
+
 <img src="colors.jpg" alt="colors in action" style="float: left;">
 
 changeTextColor_ is a cpp and .h for C++ library to print colored messages to the
 terminal. It should be OS independent, written using ANSI escape code.
 More info on the character codes can be found here under '3-bit and 4-bit':
+
 https://en.wikipedia.org/wiki/ANSI_escape_code
 
 Installation
