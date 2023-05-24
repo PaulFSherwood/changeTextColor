@@ -23,7 +23,7 @@ You can use the inlcluded functions or the color words themselves to output your
 .. note::
   You may need to call the reset() function to clear unwanted colors
    
-
+CPP
 ```cpp
 #include <iostream>
 #include "changeTextColor.h"
@@ -45,6 +45,7 @@ int main()
     return 0;
 }
 ```
+PYTHON
 ```python
 from changeTextColor import set_text_color, set_text_color_default, list_available_colors, underline, inverse, blink, reset
 
