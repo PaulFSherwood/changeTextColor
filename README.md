@@ -38,14 +38,28 @@ int main()
     setTextColor(RED, BLACK, "This is normal red text");
 
     std::cout << std::endl;
-    std::cout << BOLD_YELLOW << BG_RED << "This is normal blue text" << RESET << std::endl;
-    setTextColor(BOLD_YELLOW, BG_RED, "This is normal blue text");
+    std::cout << BOLD_BLUE << BG_RED << "This is normal blue text" << RESET << std::endl;
+    setTextColor(BOLD_BLUE, BG_RED, "This is normal blue text");
     std::cout << std::endl;
 
     return 0;
 }
 ```
+```python
+from changeTextColor import set_text_color, set_text_color_default, list_available_colors, underline, inverse, blink, reset
 
+# Test the color with normal white text
+reset()
+print("This is normal white text")
+
+# Test the color with normal red text
+setTextColor(RED, BLACK, "This is normal red text")
+
+print("\n")
+print(BOLD_BLUE + BG_RED + "This is normal blue text")
+setTextColor(BOLD_BLUE + BG_RED, "This is normal blue text")
+print("\n")
+```
 
 ## Color Options
 
