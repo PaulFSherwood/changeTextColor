@@ -33,13 +33,14 @@ BLINK             = "\033[5m"
 RESET             = "\033[0m"
 
 # Output the text with the given color
-def set_text_color(fg_color, bg_color, text):
-    colored_text = fg_color + bg_color + text + RESET
-    print(colored_text)
-
-# Run color list if no argument is given
-def set_text_color_default():
-    list_available_colors()
+def set_text_color(fg_color=None, bg_color=None, text=None):# removed due to python not having overloaded funtioncs #fg_color, bg_color, text):
+    # No input variables just list the colors available
+    if fg_color is None and bg_color is None and text is None:
+        list_available_colors()
+    # Protect again any other empty arguments and run print with colors
+    elif fg_color is not None and bg_color is not None and text is not None:
+        colored_text = fg_color + bg_color + text + RESET
+        print(colored_text)
 
 # List available colors
 def list_available_colors():
