@@ -47,7 +47,9 @@ int main()
 ```
 PYTHON
 ```python
-from changeTextColor import set_text_color, set_text_color_default, list_available_colors, underline, inverse, blink, reset
+from changeTextColor import (set_text_color, set_text_color_default, 
+                             list_available_colors, underline, 
+                             inverse, blink, reset)
 
 # Test the color with normal white text
 reset()
