@@ -47,21 +47,24 @@ int main()
 ```
 PYTHON
 ```python
-from changeTextColor import (set_text_color, set_text_color_default, 
-                             list_available_colors, underline, 
-                             inverse, blink, reset)
-
+import changeTextColor as ct
+                             
 # Test the color with normal white text
-reset()
+ct.reset()
 print("This is normal white text")
 
 # Test the color with normal red text
-setTextColor(RED, BLACK, "This is normal red text")
+ct.set_text_color(ct.RED, ct.BG_BLACK, "This is normal red text")
 
-print("\n")
-print(BOLD_BLUE + BG_RED + "This is normal blue text")
-setTextColor(BOLD_BLUE + BG_RED, "This is normal blue text")
-print("\n")
+print(ct.BOLD_YELLOW + ct.BG_BLACK + "This is normal YELLOW text")
+
+ct.set_text_color(ct.BOLD_BLUE, ct.BG_BLACK, "This is normal BLUE text")
+print(ct.GREEN + ct.BG_BLACK + "This is normal GREEN text")
+
+ct.reset()
+print("This is normal white text")
+
+ct.set_text_color()
 ```
 
 ## Color Options
